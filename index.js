@@ -10,6 +10,6 @@ app.use(bodyParser.json())
 
 app.use("/",router);
 
-app.listen(8686,() => {
+app.listen(1234,() => {
     console.log("Servidor rodando")
 });
